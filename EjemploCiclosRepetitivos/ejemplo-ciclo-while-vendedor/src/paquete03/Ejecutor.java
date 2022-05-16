@@ -40,7 +40,7 @@ public class Ejecutor {
                     "Edad: %s\n" +
                     "Salario mínimo: %.2f\n" +
                     "Número de autos: %d\n" +
-                    "Pago mensual: %.2f\n\n", 
+                    "Pago mensual: %.2f\n", 
                     cadenaFinal,
                     v.obtenerNombres(), v.obtenerEdad(),
                     v.obtenerSalarioMinimo(), v.obtenerNumeroAutos(),

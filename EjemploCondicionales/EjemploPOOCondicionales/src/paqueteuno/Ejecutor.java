@@ -47,11 +47,12 @@ public class Ejecutor {
 
             // se procede a crear el objeto, haciendo uso del constructor
             // que corresponda.
-            Hospital hosp1 = new Hospital(nombreHospital, numeroDeCamas, 
+            Hospital hosp1 = new Hospital(nombreHospital, numeroDeCamas,
                     numeroDeDoctores,
                     presupuestoAnio);
+            System.out.printf("%s", hosp1);
 
-            System.out.printf("Datos Hospital\n"
+            /* System.out.printf("Datos Hospital\n"
                     + "Nombre del hospital: %s\n"
                     + "Ciudad del hospital: %s\n"
                     + "Número de camas: %d\n"
@@ -62,6 +63,7 @@ public class Ejecutor {
                     hosp1.obtenerNumeroCamas(),
                     hosp1.obtenerNumeroDoctores(),
                     hosp1.obtenerPresupuestoAnual());
+             */
         } else {
             if (opcion == 2) {
                 // Ingreso de datos para el tipo seleccionado
@@ -73,7 +75,7 @@ public class Ejecutor {
                 numeroDeDoctores = entrada.nextInt();
                 // se procede a crear el objeto, haciendo uso del constructor
                 // que corresponda.
-                Hospital hosp2 = new Hospital(nombreHospital, numeroDeCamas, 
+                Hospital hosp2 = new Hospital(nombreHospital, numeroDeCamas,
                         numeroDeDoctores);
 
                 System.out.printf("Datos Hospital\n"
@@ -102,8 +104,8 @@ public class Ejecutor {
                     presupuestoAnio = entrada.nextDouble();
                     // se procede a crear el objeto, haciendo uso del constructor
                     // que corresponda.
-                    Hospital hosp3 = new Hospital(nombreHospital, 
-                            ciudadDeHospital, numeroDeCamas, 
+                    Hospital hosp3 = new Hospital(nombreHospital,
+                            ciudadDeHospital, numeroDeCamas,
                             numeroDeDoctores,
                             presupuestoAnio);
 

@@ -75,4 +75,18 @@ public class Vendedor {
     public double obtenerComisionPorAuto() {
         return comisionPorAuto;
     }
+   /* 
+    @Override
+    public String toString(){
+        
+        String cadea = String.format("Datos de Vendedor\n"
+                    + "Nombre: %s\n"
+                    + "Edad: %s\n"
+                    + "Salario mínimo: %.2f\n"
+                    + "Número de autos: %d\n"
+                    + "Pago mensual: %.2f\n", v.obtenerNombres(), v.obtenerEdad(),
+                    v.obtenerSalarioMinimo(), v.obtenerNumeroAutos(),
+                    v.obtenerPagoMensual());")
+    return cadena    
+    }*/
 }
